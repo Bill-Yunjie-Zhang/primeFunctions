@@ -6,4 +6,6 @@ const checkPrime = (num) => {
     }
     return true
 }
-console.log(checkPrime(541))
+// console.log(checkPrime(541))
+
+module.exports = checkPrime

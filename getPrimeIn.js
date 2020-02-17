@@ -16,4 +16,5 @@ const getPrime = (high) => {
     return primeArray
 }
 
-console.log(getPrime(10000))
+// console.log(getPrime(10000))
+module.exports = getPrime

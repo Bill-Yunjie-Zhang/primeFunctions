@@ -4,7 +4,8 @@ const getRandomNumber = (low, high) => {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-console.log(getRandomNumber(0, 100))
+// console.log(getRandomNumber(0, 100))
+module.exports = getRandomNumber
 // let a = []
 // for (ii = 0; ii < 100; ii++){
 //     a.push(getRandomNumber(0, 100))
